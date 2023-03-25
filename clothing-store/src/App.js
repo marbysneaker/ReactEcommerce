@@ -4,7 +4,7 @@ import Home from "./routes/home/home.component";
 
 import Navigation from './routes/navigation/navigation.component';
 
-
+import SignIn from './routes/sign-in/sing-in.component';
 
 
 const Shop = () => {
@@ -25,7 +25,7 @@ const App = () => {
             <Route path = 'cart' element={<Cart/>}/>
             <Route index element={<Home />}/>
             <Route path='shop' element={<Shop/>} />  
-
+            <Route path='sign-in' element={<SignIn/>} />
 
         </Route>
       
